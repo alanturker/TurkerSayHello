@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TurkerSayHello'
   s.version          = '0.1.0'
-  s.summary          = 'A framework for Turker to learn how to create one. It make yo say hello'
+  s.summary          = 'It make yo say hello'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

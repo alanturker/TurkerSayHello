@@ -228,10 +228,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2PYSM93YYN;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2PYSM93YYN;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -494,6 +496,7 @@
 			baseConfigurationReference = 970A998A40B2FAC880E59ED8 /* Pods-TurkerSayHello_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PYSM93YYN;
 				INFOPLIST_FILE = TurkerSayHello/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -510,6 +513,7 @@
 			baseConfigurationReference = EBA52966BE88E443F25DDA43 /* Pods-TurkerSayHello_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PYSM93YYN;
 				INFOPLIST_FILE = TurkerSayHello/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -525,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6419681164D07D65CA14DB73 /* Pods-TurkerSayHello_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2PYSM93YYN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -547,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36D02EA3F74CCF30DAB9AEC9 /* Pods-TurkerSayHello_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2PYSM93YYN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

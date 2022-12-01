@@ -11,7 +11,7 @@
 		30B793EBEF065E687B2AAC6DC1094EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3CBF522D16588739D1C4BEB58513032E /* Pods-TurkerSayHello_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC43D19E75DEFF7961061E2C405830C /* Pods-TurkerSayHello_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A438E0F36D2C66F2E936490D49D15E4 /* Pods-TurkerSayHello_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 060DD19A8FAC021E558E315782A0C0B1 /* Pods-TurkerSayHello_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BBF49672938BC6900B589CC /* Turker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBF49662938BC6900B589CC /* Turker.swift */; };
+		4BBF496A2938CEA100B589CC /* Turker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBF49662938BC6900B589CC /* Turker.swift */; };
 		552B44E7E8782AA3D38C01DEBEBB2FE2 /* Pods-TurkerSayHello_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A2B71DB267B22029D4E601FB719160 /* Pods-TurkerSayHello_Example-dummy.m */; };
 		60A33ED399F23D04B51567FADB7D4558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		82376D9E9BD0B503A6A110B601F499E8 /* TurkerSayHello-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F128AB07D5A0B44FF086687759669F7C /* TurkerSayHello-dummy.m */; };
@@ -49,7 +49,7 @@
 		4872CB1044037A985B20EB91C61A0E57 /* Pods-TurkerSayHello_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TurkerSayHello_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4965401EC5A632A17159D0716EDB2527 /* Pods-TurkerSayHello_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TurkerSayHello_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B04B2B3CCDC67F39CB58A55600E267B /* TurkerSayHello */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TurkerSayHello; path = TurkerSayHello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BBF49662938BC6900B589CC /* Turker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turker.swift; sourceTree = "<group>"; };
+		4BBF49662938BC6900B589CC /* Turker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Turker.swift; path = TurkerSayHello/Classes/Turker.swift; sourceTree = "<group>"; };
 		5A91601C2518068D7E449D2814F9C6C7 /* Pods_TurkerSayHello_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkerSayHello_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DDCD402C32D1937DEED5718A1A9E36 /* Pods-TurkerSayHello_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TurkerSayHello_Example-frameworks.sh"; sourceTree = "<group>"; };
 		659C941FC83B6CF8E0EB7F7C7D16FC01 /* TurkerSayHello-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TurkerSayHello-umbrella.h"; sourceTree = "<group>"; };
@@ -380,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BBF496A2938CEA100B589CC /* Turker.swift in Sources */,
 				82376D9E9BD0B503A6A110B601F499E8 /* TurkerSayHello-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,7 +390,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				552B44E7E8782AA3D38C01DEBEBB2FE2 /* Pods-TurkerSayHello_Example-dummy.m in Sources */,
-				4BBF49672938BC6900B589CC /* Turker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
