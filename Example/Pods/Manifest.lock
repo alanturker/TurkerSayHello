@@ -1,0 +1,16 @@
+PODS:
+  - TurkerSayHello (0.1.0)
+
+DEPENDENCIES:
+  - TurkerSayHello (from `../`)
+
+EXTERNAL SOURCES:
+  TurkerSayHello:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TurkerSayHello: cbcd202334ac7366d65376bfbd69117dc89fa3d7
+
+PODFILE CHECKSUM: 947f4ebe0a20884491bfa63dce52580fec603f8a
+
+COCOAPODS: 1.11.3

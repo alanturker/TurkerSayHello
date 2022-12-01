@@ -1,0 +1,6 @@
+framework module TurkerSayHello {
+  umbrella header "TurkerSayHello-umbrella.h"
+
+  export *
+  module * { export * }
+}

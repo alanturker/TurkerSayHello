@@ -1,0 +1,6 @@
+framework module Pods_TurkerSayHello_Example {
+  umbrella header "Pods-TurkerSayHello_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

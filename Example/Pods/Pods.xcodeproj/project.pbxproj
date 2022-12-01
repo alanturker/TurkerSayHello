@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28640DED3270A4C835911DE5DA9471F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		30B793EBEF065E687B2AAC6DC1094EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3CBF522D16588739D1C4BEB58513032E /* Pods-TurkerSayHello_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC43D19E75DEFF7961061E2C405830C /* Pods-TurkerSayHello_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A438E0F36D2C66F2E936490D49D15E4 /* Pods-TurkerSayHello_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 060DD19A8FAC021E558E315782A0C0B1 /* Pods-TurkerSayHello_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBF49672938BC6900B589CC /* Turker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBF49662938BC6900B589CC /* Turker.swift */; };
+		552B44E7E8782AA3D38C01DEBEBB2FE2 /* Pods-TurkerSayHello_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A2B71DB267B22029D4E601FB719160 /* Pods-TurkerSayHello_Example-dummy.m */; };
+		60A33ED399F23D04B51567FADB7D4558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		82376D9E9BD0B503A6A110B601F499E8 /* TurkerSayHello-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F128AB07D5A0B44FF086687759669F7C /* TurkerSayHello-dummy.m */; };
+		84608686A58E493D7EB1DC42696E5A65 /* TurkerSayHello-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 659C941FC83B6CF8E0EB7F7C7D16FC01 /* TurkerSayHello-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C15ED1936B5C4EC5FB87A7C30C48E45D /* Pods-TurkerSayHello_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6EAB4869332C57418B277364CAAD8 /* Pods-TurkerSayHello_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F46B2816C7DDBCE6F199FFB0D3D99AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717FD218BA00D7E265563BC3C7116333;
+			remoteInfo = TurkerSayHello;
+		};
+		EF0E9C9458A17CE94BDA36902EE11829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387E6CEDB207C77F86741BA7CD8D229F;
+			remoteInfo = "Pods-TurkerSayHello_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0202A27A17C88F421F44258080F8E5BA /* Pods-TurkerSayHello_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TurkerSayHello_Tests.modulemap"; sourceTree = "<group>"; };
+		060DD19A8FAC021E558E315782A0C0B1 /* Pods-TurkerSayHello_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkerSayHello_Example-umbrella.h"; sourceTree = "<group>"; };
+		0DF160671091BED435FCBC6FEB53B5FB /* Pods-TurkerSayHello_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TurkerSayHello_Example.modulemap"; sourceTree = "<group>"; };
+		16489750EFC3C6C0FE853727942A5A82 /* Pods-TurkerSayHello_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TurkerSayHello_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		17DF0BF9B4873F24461DF197F4A79789 /* TurkerSayHello-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TurkerSayHello-Info.plist"; sourceTree = "<group>"; };
+		266A94990E7D87F214DB62B06D4C53E1 /* Pods-TurkerSayHello_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TurkerSayHello_Tests-Info.plist"; sourceTree = "<group>"; };
+		2DC60AACFB9D5FEFEF26A9D904064825 /* TurkerSayHello.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TurkerSayHello.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31B924C0C2C70690D0F38AB154BACE37 /* Pods-TurkerSayHello_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkerSayHello_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		46A2B71DB267B22029D4E601FB719160 /* Pods-TurkerSayHello_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TurkerSayHello_Example-dummy.m"; sourceTree = "<group>"; };
+		4872CB1044037A985B20EB91C61A0E57 /* Pods-TurkerSayHello_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TurkerSayHello_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4965401EC5A632A17159D0716EDB2527 /* Pods-TurkerSayHello_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TurkerSayHello_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B04B2B3CCDC67F39CB58A55600E267B /* TurkerSayHello */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TurkerSayHello; path = TurkerSayHello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBF49662938BC6900B589CC /* Turker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turker.swift; sourceTree = "<group>"; };
+		5A91601C2518068D7E449D2814F9C6C7 /* Pods_TurkerSayHello_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkerSayHello_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DDCD402C32D1937DEED5718A1A9E36 /* Pods-TurkerSayHello_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TurkerSayHello_Example-frameworks.sh"; sourceTree = "<group>"; };
+		659C941FC83B6CF8E0EB7F7C7D16FC01 /* TurkerSayHello-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TurkerSayHello-umbrella.h"; sourceTree = "<group>"; };
+		671E92AFAFFCD18438B01B41468880D2 /* Pods-TurkerSayHello_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TurkerSayHello_Tests"; path = Pods_TurkerSayHello_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77ECBD19D6751C836E0639AB9CE65CD6 /* TurkerSayHello.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TurkerSayHello.release.xcconfig; sourceTree = "<group>"; };
+		7ABD773D190AB95EAFF98C701686367D /* Pods-TurkerSayHello_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkerSayHello_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7B0F293ADD1E8E6B516E11B2EA9F2272 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E0E878C926707A243FE22B5D4D53092 /* Pods-TurkerSayHello_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TurkerSayHello_Example-Info.plist"; sourceTree = "<group>"; };
+		92A6A8012936D70CBBC810BEF608EED3 /* Pods-TurkerSayHello_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TurkerSayHello_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAC43D19E75DEFF7961061E2C405830C /* Pods-TurkerSayHello_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkerSayHello_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B1E6EAB4869332C57418B277364CAAD8 /* Pods-TurkerSayHello_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TurkerSayHello_Tests-dummy.m"; sourceTree = "<group>"; };
+		B55E0B38067E64AF7E1940868C4AC172 /* TurkerSayHello.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TurkerSayHello.debug.xcconfig; sourceTree = "<group>"; };
+		B9978E910B5FF5ECBB588DD2A874E10B /* TurkerSayHello.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TurkerSayHello.modulemap; sourceTree = "<group>"; };
+		BDF0D3FDAF8D466CAAC626FDC022A371 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE6D8B878C4EC36C9A2B2EB378550A45 /* Pods-TurkerSayHello_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkerSayHello_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CB81CA22C609F6EDB3BA129A6F23EC13 /* Pods-TurkerSayHello_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkerSayHello_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9DDBF8316344518B0CCDB81BD4AB2E5 /* TurkerSayHello-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TurkerSayHello-prefix.pch"; sourceTree = "<group>"; };
+		F128AB07D5A0B44FF086687759669F7C /* TurkerSayHello-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TurkerSayHello-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F1FF62BA6D6DAD6DF5269585DFCA8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B793EBEF065E687B2AAC6DC1094EBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465DDA59FBA897EAAC8386BF42B83487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28640DED3270A4C835911DE5DA9471F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936ACA2B674C27C39E7B932F109DF9B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A33ED399F23D04B51567FADB7D4558 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A09EBA2EF7F6A4CACA8353CD568E98 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BDF0D3FDAF8D466CAAC626FDC022A371 /* LICENSE */,
+				7B0F293ADD1E8E6B516E11B2EA9F2272 /* README.md */,
+				2DC60AACFB9D5FEFEF26A9D904064825 /* TurkerSayHello.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D49AE21BE9E5801E93C72F35854A27C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A91601C2518068D7E449D2814F9C6C7 /* Pods_TurkerSayHello_Example.framework */,
+				671E92AFAFFCD18438B01B41468880D2 /* Pods-TurkerSayHello_Tests */,
+				4B04B2B3CCDC67F39CB58A55600E267B /* TurkerSayHello */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73E0CAD960CE0A448184B12B8392F3F4 /* Pods-TurkerSayHello_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0202A27A17C88F421F44258080F8E5BA /* Pods-TurkerSayHello_Tests.modulemap */,
+				4872CB1044037A985B20EB91C61A0E57 /* Pods-TurkerSayHello_Tests-acknowledgements.markdown */,
+				4965401EC5A632A17159D0716EDB2527 /* Pods-TurkerSayHello_Tests-acknowledgements.plist */,
+				B1E6EAB4869332C57418B277364CAAD8 /* Pods-TurkerSayHello_Tests-dummy.m */,
+				266A94990E7D87F214DB62B06D4C53E1 /* Pods-TurkerSayHello_Tests-Info.plist */,
+				AAC43D19E75DEFF7961061E2C405830C /* Pods-TurkerSayHello_Tests-umbrella.h */,
+				CB81CA22C609F6EDB3BA129A6F23EC13 /* Pods-TurkerSayHello_Tests.debug.xcconfig */,
+				31B924C0C2C70690D0F38AB154BACE37 /* Pods-TurkerSayHello_Tests.release.xcconfig */,
+			);
+			name = "Pods-TurkerSayHello_Tests";
+			path = "Target Support Files/Pods-TurkerSayHello_Tests";
+			sourceTree = "<group>";
+		};
+		767DE210E0FA722306D81976BA4DF7D5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6A2F7C5213E41CEFC0992780F48F095 /* TurkerSayHello */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9BE9693D417219CA9D2CC795C860FD08 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED6E17BB917C595E5C55C4615B300B /* Pods-TurkerSayHello_Example */,
+				73E0CAD960CE0A448184B12B8392F3F4 /* Pods-TurkerSayHello_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4ED6E17BB917C595E5C55C4615B300B /* Pods-TurkerSayHello_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0DF160671091BED435FCBC6FEB53B5FB /* Pods-TurkerSayHello_Example.modulemap */,
+				92A6A8012936D70CBBC810BEF608EED3 /* Pods-TurkerSayHello_Example-acknowledgements.markdown */,
+				16489750EFC3C6C0FE853727942A5A82 /* Pods-TurkerSayHello_Example-acknowledgements.plist */,
+				46A2B71DB267B22029D4E601FB719160 /* Pods-TurkerSayHello_Example-dummy.m */,
+				63DDCD402C32D1937DEED5718A1A9E36 /* Pods-TurkerSayHello_Example-frameworks.sh */,
+				8E0E878C926707A243FE22B5D4D53092 /* Pods-TurkerSayHello_Example-Info.plist */,
+				060DD19A8FAC021E558E315782A0C0B1 /* Pods-TurkerSayHello_Example-umbrella.h */,
+				7ABD773D190AB95EAFF98C701686367D /* Pods-TurkerSayHello_Example.debug.xcconfig */,
+				BE6D8B878C4EC36C9A2B2EB378550A45 /* Pods-TurkerSayHello_Example.release.xcconfig */,
+			);
+			name = "Pods-TurkerSayHello_Example";
+			path = "Target Support Files/Pods-TurkerSayHello_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				767DE210E0FA722306D81976BA4DF7D5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5D49AE21BE9E5801E93C72F35854A27C /* Products */,
+				9BE9693D417219CA9D2CC795C860FD08 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9E21337EA22457FD13F3E9ADA43935F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9978E910B5FF5ECBB588DD2A874E10B /* TurkerSayHello.modulemap */,
+				F128AB07D5A0B44FF086687759669F7C /* TurkerSayHello-dummy.m */,
+				17DF0BF9B4873F24461DF197F4A79789 /* TurkerSayHello-Info.plist */,
+				E9DDBF8316344518B0CCDB81BD4AB2E5 /* TurkerSayHello-prefix.pch */,
+				659C941FC83B6CF8E0EB7F7C7D16FC01 /* TurkerSayHello-umbrella.h */,
+				B55E0B38067E64AF7E1940868C4AC172 /* TurkerSayHello.debug.xcconfig */,
+				77ECBD19D6751C836E0639AB9CE65CD6 /* TurkerSayHello.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TurkerSayHello";
+			sourceTree = "<group>";
+		};
+		F6A2F7C5213E41CEFC0992780F48F095 /* TurkerSayHello */ = {
+			isa = PBXGroup;
+			children = (
+				4BBF49662938BC6900B589CC /* Turker.swift */,
+				14A09EBA2EF7F6A4CACA8353CD568E98 /* Pod */,
+				D9E21337EA22457FD13F3E9ADA43935F /* Support Files */,
+			);
+			name = TurkerSayHello;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1381569D7F6A9511D621230465767CE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A438E0F36D2C66F2E936490D49D15E4 /* Pods-TurkerSayHello_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B4DC118A691F9AF44AA7D07EF9A89D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84608686A58E493D7EB1DC42696E5A65 /* TurkerSayHello-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17D8AC17EA95EE979817AE712EB528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBF522D16588739D1C4BEB58513032E /* Pods-TurkerSayHello_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		373F8A531E04CCFF47ADF676DC6A12AE /* Pods-TurkerSayHello_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE51A48574DB50628FAD5F81669ADCC7 /* Build configuration list for PBXNativeTarget "Pods-TurkerSayHello_Tests" */;
+			buildPhases = (
+				ED17D8AC17EA95EE979817AE712EB528 /* Headers */,
+				49BD87E1F4C5395A6A001B07F81250EF /* Sources */,
+				936ACA2B674C27C39E7B932F109DF9B4 /* Frameworks */,
+				22BCCA60CF06C6B27068642E0CEC8D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0E8843329372FBC62F7919D9D9EDA0 /* PBXTargetDependency */,
+			);
+			name = "Pods-TurkerSayHello_Tests";
+			productName = Pods_TurkerSayHello_Tests;
+			productReference = 671E92AFAFFCD18438B01B41468880D2 /* Pods-TurkerSayHello_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		387E6CEDB207C77F86741BA7CD8D229F /* Pods-TurkerSayHello_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3677C16D08C71C43EE5ECBD6889C13B /* Build configuration list for PBXNativeTarget "Pods-TurkerSayHello_Example" */;
+			buildPhases = (
+				1381569D7F6A9511D621230465767CE7 /* Headers */,
+				9DB61428E4CD2174B0CD22E3C9508599 /* Sources */,
+				1F1FF62BA6D6DAD6DF5269585DFCA8BE /* Frameworks */,
+				3E029283687EB4D0686A033FA9D3EC60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA365CDA5BAE2DFAA15D36B0A83AD0B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TurkerSayHello_Example";
+			productName = Pods_TurkerSayHello_Example;
+			productReference = 5A91601C2518068D7E449D2814F9C6C7 /* Pods_TurkerSayHello_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		717FD218BA00D7E265563BC3C7116333 /* TurkerSayHello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB5910FB6073AB6BE25F1CC98EDC2FF /* Build configuration list for PBXNativeTarget "TurkerSayHello" */;
+			buildPhases = (
+				66B4DC118A691F9AF44AA7D07EF9A89D /* Headers */,
+				6BF8622AB790ACE39DAEB9CD451F4AB7 /* Sources */,
+				465DDA59FBA897EAAC8386BF42B83487 /* Frameworks */,
+				A4032FAF6ACA76D241E031A12BAE2C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurkerSayHello;
+			productName = TurkerSayHello;
+			productReference = 4B04B2B3CCDC67F39CB58A55600E267B /* TurkerSayHello */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					387E6CEDB207C77F86741BA7CD8D229F = {
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5D49AE21BE9E5801E93C72F35854A27C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				387E6CEDB207C77F86741BA7CD8D229F /* Pods-TurkerSayHello_Example */,
+				373F8A531E04CCFF47ADF676DC6A12AE /* Pods-TurkerSayHello_Tests */,
+				717FD218BA00D7E265563BC3C7116333 /* TurkerSayHello */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22BCCA60CF06C6B27068642E0CEC8D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E029283687EB4D0686A033FA9D3EC60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4032FAF6ACA76D241E031A12BAE2C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49BD87E1F4C5395A6A001B07F81250EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15ED1936B5C4EC5FB87A7C30C48E45D /* Pods-TurkerSayHello_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF8622AB790ACE39DAEB9CD451F4AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82376D9E9BD0B503A6A110B601F499E8 /* TurkerSayHello-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB61428E4CD2174B0CD22E3C9508599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552B44E7E8782AA3D38C01DEBEBB2FE2 /* Pods-TurkerSayHello_Example-dummy.m in Sources */,
+				4BBF49672938BC6900B589CC /* Turker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE0E8843329372FBC62F7919D9D9EDA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TurkerSayHello_Example";
+			target = 387E6CEDB207C77F86741BA7CD8D229F /* Pods-TurkerSayHello_Example */;
+			targetProxy = EF0E9C9458A17CE94BDA36902EE11829 /* PBXContainerItemProxy */;
+		};
+		FA365CDA5BAE2DFAA15D36B0A83AD0B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TurkerSayHello;
+			target = 717FD218BA00D7E265563BC3C7116333 /* TurkerSayHello */;
+			targetProxy = 6F46B2816C7DDBCE6F199FFB0D3D99AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25DF5BCB91855DA4EE7E62ACA2E35C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6D8B878C4EC36C9A2B2EB378550A45 /* Pods-TurkerSayHello_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkerSayHello_Example/Pods-TurkerSayHello_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkerSayHello_Example/Pods-TurkerSayHello_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC7654D65D9AFF12F3972E7ECAEBA9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B924C0C2C70690D0F38AB154BACE37 /* Pods-TurkerSayHello_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkerSayHello_Tests/Pods-TurkerSayHello_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkerSayHello_Tests/Pods-TurkerSayHello_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D4B29D374D8AC12081A1F0D648CD45A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABD773D190AB95EAFF98C701686367D /* Pods-TurkerSayHello_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkerSayHello_Example/Pods-TurkerSayHello_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkerSayHello_Example/Pods-TurkerSayHello_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F069FDA51F88557544B1B3B116996EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77ECBD19D6751C836E0639AB9CE65CD6 /* TurkerSayHello.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TurkerSayHello/TurkerSayHello-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TurkerSayHello/TurkerSayHello-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TurkerSayHello/TurkerSayHello.modulemap";
+				PRODUCT_MODULE_NAME = TurkerSayHello;
+				PRODUCT_NAME = TurkerSayHello;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F687A5EE26FD5B096EAA04F3E5D541C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB81CA22C609F6EDB3BA129A6F23EC13 /* Pods-TurkerSayHello_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkerSayHello_Tests/Pods-TurkerSayHello_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkerSayHello_Tests/Pods-TurkerSayHello_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE621377C9484C114A73DF1D6E66AC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55E0B38067E64AF7E1940868C4AC172 /* TurkerSayHello.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TurkerSayHello/TurkerSayHello-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TurkerSayHello/TurkerSayHello-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TurkerSayHello/TurkerSayHello.modulemap";
+				PRODUCT_MODULE_NAME = TurkerSayHello;
+				PRODUCT_NAME = TurkerSayHello;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB5910FB6073AB6BE25F1CC98EDC2FF /* Build configuration list for PBXNativeTarget "TurkerSayHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE621377C9484C114A73DF1D6E66AC30 /* Debug */,
+				F069FDA51F88557544B1B3B116996EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3677C16D08C71C43EE5ECBD6889C13B /* Build configuration list for PBXNativeTarget "Pods-TurkerSayHello_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B29D374D8AC12081A1F0D648CD45A8 /* Debug */,
+				25DF5BCB91855DA4EE7E62ACA2E35C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE51A48574DB50628FAD5F81669ADCC7 /* Build configuration list for PBXNativeTarget "Pods-TurkerSayHello_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F687A5EE26FD5B096EAA04F3E5D541C6 /* Debug */,
+				BC7654D65D9AFF12F3972E7ECAEBA9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
