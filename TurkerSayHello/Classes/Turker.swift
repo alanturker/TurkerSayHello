@@ -9,6 +9,6 @@ import Foundation
 
 public struct Turker {
     public static func sayHello() {
-        print("Hello Motherf*cker!")
+        print("Hello Turker")
     }
 }
